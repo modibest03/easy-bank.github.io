@@ -1,7 +1,7 @@
 {
-  "name": "Ausivest",
+  "name": "Easy-Bank",
   "version": "1.0.0",
-  "description": "Ausivest Capital",
+  "description": "Easy Bank",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
