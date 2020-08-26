@@ -11,6 +11,7 @@
             rgba(hsl(136, 65%, 51%), 1), 
             rgba(hsl(192, 70%, 51%), 1));
         transition: all .3s;
+        // margin-top: 2rem;
 
         &:hover {
             background-image: linear-gradient(
@@ -28,6 +29,10 @@
             outline: none;
         }
     }
+
+    &--header {
+        margin-top: 2rem;
+    }
 }
 
 .heading {
@@ -38,11 +43,50 @@
         line-height: normal;
         margin-bottom: 2rem;
     }
+
+    &__secondary {
+        font-size: 3rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+
+    &__tertiary {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+
+    &__small {
+        font-size: 1.7rem;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 1rem;
+        color: var(--color-grey-3);
+        cursor: pointer;
+        transition: color .3s;
+
+        &:hover {
+            color: var(--color-secondary);
+            opacity: 60%;
+        }
+    }
+
+    &__blog {
+        margin-bottom: 5rem;
+    }
 }
 
 .paragraph {
     color: var(--color-grey-3);
     font-size: 1.6rem;
     font-weight: 400;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
+
+    &__about {
+        margin-bottom: 7rem;
+    }
+
+    &__small {
+        font-size: 1.4rem;
+    }
 }

@@ -1,0 +1,12 @@
+.about {
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__svg {
+        margin-bottom: 3rem;
+    }
+}

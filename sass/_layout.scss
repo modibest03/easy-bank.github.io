@@ -1,6 +1,7 @@
 .header {
     position: relative;
     height: 100vh;
+    background-color: var(--color-grey-2);
 
     &__svg {
         position: absolute;
@@ -28,5 +29,10 @@
     background-color: var(--color-grey-1);
     position: relative;
     z-index: 5;
-    padding: 10rem;
+    padding: 11rem;
+}
+
+.section-blog {
+    padding: 9rem;
+    background-color: var(--color-grey-2);
 }

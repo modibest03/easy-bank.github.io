@@ -8,6 +8,14 @@
 ORDER: Base + typography > general layout + grid > layout > components
 
 */
+.about__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.about__svg {
+  margin-bottom: 3rem; }
+
 @keyframes navLinkFade {
   from {
     opacity: 0;
@@ -54,6 +62,32 @@ body {
   color: var(--color-primary);
   overflow-x: hidden; }
 
+.blog__content {
+  display: flex;
+  justify-content: space-between; }
+  .blog__content-box {
+    width: 30rem;
+    background-color: var(--color-white);
+    border-radius: 2px; }
+
+.blog__image {
+  width: 100%;
+  height: 20rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+
+.blog__caption {
+  color: var(--color-grey-3);
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-left: 2rem; }
+
+.blog__padding {
+  padding: 2rem; }
+
+.blog__text {
+  padding: 1rem 2rem 2rem 2rem; }
+
 .btn--primary {
   border: none;
   padding: 1rem 3rem;
@@ -70,17 +104,48 @@ body {
   .btn--primary:focus {
     outline: none; }
 
+.btn--header {
+  margin-top: 2rem; }
+
 .heading__primary {
   font-size: 5rem;
   font-weight: 400;
   line-height: normal;
   margin-bottom: 2rem; }
 
+.heading__secondary {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 2rem; }
+
+.heading__tertiary {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2rem; }
+
+.heading__small {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1rem;
+  color: var(--color-grey-3);
+  cursor: pointer;
+  transition: color .3s; }
+  .heading__small:hover {
+    color: var(--color-secondary);
+    opacity: 60%; }
+
+.heading__blog {
+  margin-bottom: 5rem; }
+
 .paragraph {
   color: var(--color-grey-3);
   font-size: 1.6rem;
-  font-weight: 400;
-  margin-bottom: 2rem; }
+  font-weight: 400; }
+  .paragraph__about {
+    margin-bottom: 7rem; }
+  .paragraph__small {
+    font-size: 1.4rem; }
 
 .nav-bar {
   display: flex;
@@ -161,7 +226,8 @@ body {
 
 .header {
   position: relative;
-  height: 100vh; }
+  height: 100vh;
+  background-color: var(--color-grey-2); }
   .header__svg {
     position: absolute;
     top: -30%;
@@ -180,4 +246,8 @@ body {
   background-color: var(--color-grey-1);
   position: relative;
   z-index: 5;
-  padding: 10rem; }
+  padding: 11rem; }
+
+.section-blog {
+  padding: 9rem;
+  background-color: var(--color-grey-2); }
