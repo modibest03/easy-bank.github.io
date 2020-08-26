@@ -1,11 +1,13 @@
 :root {
-    --color-primary: #000000;
-    --color-secondary: #ffffff;
-    --color-tertiary: #0872BA;
+    --color-primary: hsl(233, 26%, 24%);
+    --color-secondary: hsl(136, 65%, 51%);
+    --color-tertiary: hsl(192, 70%, 51%);
 
-    --color-grey-1: #292929;
-    --color-grey-2: #363636;
-    --color-yellow-1: #F79421;
+    --color-grey-1: hsl(0, 0%, 98%);
+    --color-grey-2: hsl(220, 16%, 96%);
+    --color-grey-3: hsl(233, 8%, 62%);
+
+    --color-white: hsl(0, 0%, 100%);
 }
 
 * {
@@ -39,9 +41,10 @@ html {
 
 
 body {
-    font-family: 'Poppins',  'Open Sans',sans-serif;
+    font-family: 'Public Sans', sans-serif;
     font-weight: 300;
     line-height: 1.6;
     color: var(--color-primary);
+    overflow-x: hidden;
 }
 

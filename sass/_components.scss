@@ -1,0 +1,48 @@
+.btn {
+
+    &--primary {
+        border: none;
+        padding: 1rem 3rem;
+        cursor: pointer;
+        border-radius: 2rem;
+        color: var(--color-white);
+        background-image: linear-gradient(
+            to right, 
+            rgba(hsl(136, 65%, 51%), 1), 
+            rgba(hsl(192, 70%, 51%), 1));
+        transition: all .3s;
+
+        &:hover {
+            background-image: linear-gradient(
+                to right, 
+                rgba(hsl(136, 65%, 51%), .7), 
+                rgba(hsl(192, 70%, 51%), .7));
+            transform: translateY(-3px);
+        }
+
+        &:active {
+            transform: translateY(0);
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.heading {
+
+    &__primary {
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 2rem;
+    }
+}
+
+.paragraph {
+    color: var(--color-grey-3);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
