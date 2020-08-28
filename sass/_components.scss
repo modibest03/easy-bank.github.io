@@ -19,6 +19,7 @@
                 rgba(hsl(136, 65%, 51%), .7), 
                 rgba(hsl(192, 70%, 51%), .7));
             transform: translateY(-3px);
+            transition: all .3s;
         }
 
         &:active {

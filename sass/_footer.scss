@@ -1,0 +1,59 @@
+.footer {
+    background-color: #2D314D;
+
+    &__contact {
+        display: flex;
+        flex-basis: 50%;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover {
+            filter: invert(61%) sepia(100%) saturate(337%) hue-rotate(80deg) brightness(160%) contrast(96%);
+            transition: all .3s;
+        }
+
+        &:not(:last-child) {
+            margin-right: 7px;
+        }
+    }
+
+    &__logo {
+        margin-bottom: 2rem;
+    }
+
+    &__links {
+        text-decoration: none;
+        color: var(--color-white);
+        font-size: 1.6rem;
+        transition: all .3s;
+
+        &:hover {
+            color: var(--color-secondary);
+        }
+    }
+
+    &__contact--1 {
+        margin-top: 3px;
+    }
+
+    &__contact--2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: -4px;
+    }
+
+    &__button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__appreciation {
+        color: var(--color-grey-2);
+    }
+}

@@ -33,6 +33,13 @@
 }
 
 .section-blog {
-    padding: 9rem;
+    padding: 11rem;
     background-color: var(--color-grey-2);
+}
+
+.footer {
+    padding: 5rem 11rem;
+    display: flex;
+    justify-content: space-between;
+    justify-items: start;
 }
